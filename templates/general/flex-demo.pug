@@ -1,0 +1,226 @@
+header.header I am the website header. I can be repeated on the other pages.
+main.main 
+    div.main_container
+        // Я основной контент! Живу только на этой странице.
+        h1.main_header Flex Demo
+        section.section_wrapper
+            h2.section_title Flex Container Properties (Parent)
+            h3.section_subtitle Display: flex (blocks with same width)
+            div.section_content.same-width 
+                div.section_item__single flex-grow: 1;
+                div.section_item__single flex-grow: 1;
+                div.section_item__single flex-grow: 1;
+            div.section_content.same-width 
+                div.section_item__double flex-grow: 2;
+                div.section_item__double flex-grow: 2;
+                div.section_item__double flex-grow: 2;
+            h3.section_subtitle Display: flex (blocks with different width)
+            div.section_content.different-width
+                div.section_item__single flex-grow: 1;
+                div.section_item__double flex-grow: 2;
+                div.section_item__single flex-grow: 1;
+            div.section_content.different-width
+                div.section_item__double flex-grow: 2;
+                div.section_item__double flex-grow: 2;
+                div.section_item__single flex-grow: 1;
+            div.section_content.different-width
+                div.section_item__double flex-grow: 2;
+                div.section_item__double flex-grow: 2;
+                div.section_item__septuple flex-grow: 7;
+            div.section_content.different-width
+                div.section_item__single flex-grow: 1;
+                div.section_item__sextuple flex-grow: 6;
+                div.section_item flex-grow: 1; 
+            div.section_content.different-width
+                div.section_item__single flex-grow: 1;
+                div.section_item__quadruple flex-grow: 4;
+                div.section_item__single flex-grow: 1; 
+            div.section_content.different-width
+                div.section_item__single flex-grow: 1;
+                div.section_item__double flex-grow: 2;
+                div.section_item__single flex-grow: 1; 
+            h3.section_subtitle Flex-direction: row
+            div.section_content.row_demo
+                div.section_item flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3
+                div.section_item flex-item 4
+                div.section_item flex-item 5
+                div.section_item flex-item 6 
+            h3.section_subtitle Flex-direction: row-reverse
+            div.section_content.row-reverse_demo
+                div.section_item flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3
+                div.section_item flex-item 4
+                div.section_item flex-item 5
+                div.section_item flex-item 6 
+            h3.section_subtitle Flex-direction: column
+            div.section_content.column_demo
+                div.section_item flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3
+            h3.section_subtitle Flex-direction: column-reverse
+            div.section_content.column-reverse_demo
+                div.section_item flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 
+            h3.section_subtitle Flex-wrap: nowrap (default)
+            div.section_content.nowrap_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 
+                div.section_item flex-item 4
+                div.section_item flex-item 5
+                div.section_item flex-item 6
+                div.section_item flex-item 7
+            h3.section_subtitle Flex-wrap: wrap (different contents)
+            div.section_content.wrap_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 
+                div.section_item flex-item 4
+                div.section_item flex-item 5
+                div.section_item flex-item 6
+                div.section_item flex-item 7 
+            h3.section_subtitle Flex-wrap: wrap (same contents)
+            div.section_content.wrap_demo
+                div.section_item flex-item 1 
+                div.section_item flex-item 2
+                div.section_item flex-item 3 
+                div.section_item flex-item 4
+                div.section_item flex-item 5
+                div.section_item flex-item 6
+                div.section_item flex-item 7  
+            h3.section_subtitle Flex-wrap: wrap-reverse (same contents)
+            div.section_content.wrap-reverse_demo
+                div.section_item flex-item 1 
+                div.section_item flex-item 2
+                div.section_item flex-item 3 
+                div.section_item flex-item 4
+                div.section_item flex-item 5
+                div.section_item flex-item 6
+                div.section_item flex-item 7  
+            h3.section_subtitle Justify-content: flex-start
+            div.section_content.flex-start_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3  
+            h3.section_subtitle Justify-content: flex-end
+            div.section_content.flex-end_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3  
+            h3.section_subtitle Justify-content: center
+            div.section_content.center_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 
+            h3.section_subtitle Justify-content: space-between
+            div.section_content.space-between_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 
+            h3.section_subtitle Justify-content: space-around
+            div.section_content.space-around_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 
+            h3.section_subtitle Align-items: flex-start
+            div.section_content.flex-start--align-items_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4  
+            h3.section_subtitle Align-items: flex-end
+            div.section_content.flex-end--align-items_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4  
+            h3.section_subtitle Align-items: center
+            div.section_content.center--align-items_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4    
+            h3.section_subtitle Align-items: stretch
+            div.section_content.stretch--align-items_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4   
+            h3.section_subtitle Align-items: baseline
+            div.section_content.baseline--align-items_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4   
+            h3.section_subtitle Align-content: flex-start
+            div.section_content.flex-start--align-content_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4   
+                div.section_item flex-item 5 
+                div.section_item flex-item 6
+                div.section_item flex-item 7 flex-item 7 flex-item 7 flex-item 7 flex-item 7
+                div.section_item flex-item 8 
+            h3.section_subtitle Align-content: flex-end
+            div.section_content.flex-end--align-content_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4   
+                div.section_item flex-item 5 
+                div.section_item flex-item 6
+                div.section_item flex-item 7 flex-item 7 flex-item 7 flex-item 7 flex-item 7
+                div.section_item flex-item 8 
+            h3.section_subtitle Align-content: center
+            div.section_content.center--align-content_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4   
+                div.section_item flex-item 5 
+                div.section_item flex-item 6
+                div.section_item flex-item 7 flex-item 7 flex-item 7 flex-item 7 flex-item 7
+                div.section_item flex-item 8  
+            h3.section_subtitle Align-content: space-between
+            div.section_content.space-between--align-content_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4   
+                div.section_item flex-item 5 
+                div.section_item flex-item 6
+                div.section_item flex-item 7 flex-item 7 flex-item 7 flex-item 7 flex-item 7
+                div.section_item flex-item 8 
+            h3.section_subtitle Align-content: space-around
+            div.section_content.space-around--align-content_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4   
+                div.section_item flex-item 5 
+                div.section_item flex-item 6
+                div.section_item flex-item 7 flex-item 7 flex-item 7 flex-item 7 flex-item 7
+                div.section_item flex-item 8
+            h3.section_subtitle Align-content: stretch
+            div.section_content.stretch--align-content_demo
+                div.section_item flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1 flex-item 1flex-item 1 flex-item 1
+                div.section_item flex-item 2
+                div.section_item flex-item 3 flex-item 3 flex-item 3 flex-item 3 flex-item 3
+                div.section_item flex-item 4   
+                div.section_item flex-item 5 
+                div.section_item flex-item 6
+                div.section_item flex-item 7 flex-item 7 flex-item 7 flex-item 7 flex-item 7
+                div.section_item flex-item 8  
+            h3.section_subtitle Perfect centering by Flex (pay attention to vertical)
+            div.section_content.centering_demo
+                div.section_item flex-item 1
+                div.section_item flex-item 2                         
+footer.footer I am the website footer and I am like the website header.
+    p.footer_link_wrapper Sourse: 
+        a.footer_link(href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noopener noreferrer")  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+        |  *this will be opened in new tab*
